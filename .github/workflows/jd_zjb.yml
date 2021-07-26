@@ -1,5 +1,5 @@
   
-name: 京东极速版-赚金币+京喜签到+加速提现
+name: 京东极速版-赚金币+京喜签到
 
 on:
     workflow_dispatch:
