@@ -1,4 +1,4 @@
-name: ph特物-简爱+密室大逃脱+星小店
+name: 京喜领88元红包+沃尔玛畅玩88
 
 on:
     workflow_dispatch:
@@ -7,7 +7,7 @@ on:
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_tw
+        types: jd_jxlhb.js
 
 jobs:
     build:
@@ -26,7 +26,7 @@ jobs:
             - name: "运行【app】"
               run: |
                   node onlyOneExecute.js
-                  #node onlyOneExecute2.js
+                  node onlyOneExecute2.js
                   #node onlyOneExecute3.js
               env:
                   A: ${{ github.event.client_payload.A || secrets.A }}
@@ -72,8 +72,8 @@ jobs:
                   QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
-                  SYNCURL: https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_tw.js
-                  SYNCURL2: https://raw.githubusercontent.com/panghu999/panghu/master/jd_twmsdtt.js
+                  SYNCURL: Ann/jd_jxlhb.js
+                  SYNCURL2: Ann/jd_walmart.js
                   SYNCURL3: https://raw.githubusercontent.com/panghu999/panghu/master/jd_twz-star.js
-                  #REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
+                  REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   HELP_AUTHOR: ${{ github.event.client_payload.HELP_AUTHOR || secrets.HELP_AUTHOR }}
