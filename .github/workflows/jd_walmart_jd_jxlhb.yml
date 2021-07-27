@@ -72,7 +72,7 @@ jobs:
                   QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
-                  SYNCURL: Ann/jd_jxlhb.js
+                  SYNCURL: yn/jd_jxlhb.js
                   SYNCURL2: Ann/jd_walmart.js
                   SYNCURL3: https://raw.githubusercontent.com/panghu999/panghu/master/jd_twz-star.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
