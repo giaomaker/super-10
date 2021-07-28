@@ -1,4 +1,4 @@
-name: 京东极速版-赚金币+京喜签到
+name: 京东极速版-赚金币+京喜签到(faker版)
 
 on:
     workflow_dispatch:
@@ -73,6 +73,6 @@ jobs:
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   SYNCURL: jo/jd_zjb.js #改路径自带邀请码
-                  SYNCURL2: jo/jd_jxqd.js
+                  SYNCURL2: faker/jd_jxqd_new.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
