@@ -85,4 +85,5 @@ jobs:
           REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
           BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
           HELP_AUTHOR: ${{ github.event.client_payload.HELP_AUTHOR || secrets.HELP_AUTHOR }}
-          JD_JOY_REWARD_NAME: ${{ github.event.client_payload.JD_JOY_REWARD_NAME || secrets.JD_JOY_REWARD_NAME }}
+          #JD_JOY_REWARD_NAME: ${{ github.event.client_payload.JD_JOY_REWARD_NAME || secrets.JD_JOY_REWARD_NAME }}
+          JD_JOY_REWARD_NAME: 20
