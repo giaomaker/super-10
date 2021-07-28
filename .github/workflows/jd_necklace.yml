@@ -75,4 +75,4 @@ jobs:
                   SYNCURL: jo/jd_necklace.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-                  DDQ_NOTIFY_CONTROL: true
+                  DDQ_NOTIFY_CONTROL: false
