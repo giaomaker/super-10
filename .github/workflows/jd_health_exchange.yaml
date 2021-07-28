@@ -10,7 +10,7 @@ on:
     watch:
         types: [started]
     repository_dispatch:
-        types: zjd_health_exchange
+        types: jd_health_exchange
 
 jobs:
     build:
