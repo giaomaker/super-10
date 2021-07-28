@@ -75,4 +75,5 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   SYNCURL: yn/jd_health_exchange.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
-                  COMMODITYID: ${{ github.event.client_payload.COMMODITYID || secrets.COMMODITYID }}
+                  #COMMODITYID: ${{ github.event.client_payload.COMMODITYID || secrets.COMMODITYID }}
+                  COMMODITYID: 4
