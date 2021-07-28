@@ -87,4 +87,4 @@ jobs:
           SYNCURL2: jo/jd_cash.js
           REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
           BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-          
+          CASH_NOTIFY_CONTROL: false
