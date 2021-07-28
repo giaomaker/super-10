@@ -85,5 +85,6 @@ jobs:
           SYNCURL2: jo/jd_moneyTree_help.js
           REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
           BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-          MONEY_TREE_SELL_FRUIT: ${{ github.event.client_payload.MONEY_TREE_SELL_FRUIT || secrets.MONEY_TREE_SELL_FRUIT }}
+          #MONEY_TREE_SELL_FRUIT: ${{ github.event.client_payload.MONEY_TREE_SELL_FRUIT || secrets.MONEY_TREE_SELL_FRUIT }}
           MONEYTREE_SHARECODES: ${{ github.event.client_payload.MONEYTREE_SHARECODES || secrets.MONEYTREE_SHARECODES }}
+          MONEY_TREE_SELL_FRUIT: true
