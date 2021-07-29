@@ -65,4 +65,6 @@ jobs:
           DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN }}
           DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
           IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY }}
-          MARKET_COIN_TO_BEANS: ${{ secrets.MARKET_COIN_TO_BEANS }}
+          MARKET_COIN_TO_BEANS: 20  #兑换京豆数量,可输入值为20或者1000的数字或者其他商品的名称,例如碧浪洗衣凝珠
+          MARKET_REWARD_NOTIFY: false  false为否(发送推送通知消息)
+          
