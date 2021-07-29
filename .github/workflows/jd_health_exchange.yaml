@@ -76,4 +76,4 @@ jobs:
                   SYNCURL: yn/jd_health_exchange.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   #COMMODITYID: ${{ github.event.client_payload.COMMODITYID || secrets.COMMODITYID }}
-                  COMMODITYID: 4
+                  COMMODITYID: 4  #填写1-4,分别表示兑换京豆数量3,5,10,20
