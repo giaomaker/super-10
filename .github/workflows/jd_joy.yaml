@@ -78,14 +78,18 @@ jobs:
           QQ_MODE: ${{ github.event.client_payload.QQ_MODE || secrets.QQ_MODE }}
           QYWX_KEY: ${{ github.event.client_payload.QYWX_KEY || secrets.QYWX_KEY }}
           QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
-          PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
-          PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
-          JOY_FEED_COUNT: ${{ github.event.client_payload.JOY_FEED_COUNT || secrets.JOY_FEED_COUNT }}
-          JOY_RUN_FLAG: ${{ github.event.client_payload.JOY_RUN_FLAG || secrets.JOY_RUN_FLAG }}
-          JOY_TEAM_LEVEL: ${{ github.event.client_payload.JOY_TEAM_LEVEL || secrets.JOY_TEAM_LEVEL }}
-          JOY_RUN_NOTIFY: ${{ github.event.client_payload.JOY_RUN_NOTIFY || secrets.JOY_RUN_NOTIFY }}
+          #PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
+          #PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
+          #JOY_FEED_COUNT: ${{ github.event.client_payload.JOY_FEED_COUNT || secrets.JOY_FEED_COUNT }}
+          #JOY_RUN_FLAG: ${{ github.event.client_payload.JOY_RUN_FLAG || secrets.JOY_RUN_FLAG }}
+          #JOY_TEAM_LEVEL: ${{ github.event.client_payload.JOY_TEAM_LEVEL || secrets.JOY_TEAM_LEVEL }}
+          #JOY_RUN_NOTIFY: ${{ github.event.client_payload.JOY_RUN_NOTIFY || secrets.JOY_RUN_NOTIFY }}
           SYNCURL: yn/jd_joy.js
           REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
           BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
           HELP_AUTHOR: ${{ github.event.client_payload.HELP_AUTHOR || secrets.HELP_AUTHOR }}
+          JOY_FEED_COUNT: ${{ github.event.client_payload.JOY_FEED_COUNT || secrets.JOY_FEED_COUNT }}
+          JOY_RUN_FLAG: true  #true表示参加赛跑
+          JOY_TEAM_LEVEL: 10   #参加几人的赛跑,可选数字为2,10,50
+          JOY_RUN_NOTIFY: true  #true为赛跑获胜后推送通知
           
