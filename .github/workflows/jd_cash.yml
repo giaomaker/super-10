@@ -87,4 +87,5 @@ jobs:
           SYNCURL2: jo/jd_cash.js
           REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
           BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-          CASH_NOTIFY_CONTROL: false
+          CASH_NOTIFY_CONTROL: false  #即为通知
+          CASH_EXCHANGE: true  #true为是(即：花费2元红包兑换200京豆，一周可换四次)
