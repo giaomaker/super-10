@@ -1,4 +1,4 @@
-name: 京小兑-赚京豆
+name: 领京豆-赚京豆
 
 on:
     workflow_dispatch:
