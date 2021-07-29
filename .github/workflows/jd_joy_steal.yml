@@ -81,9 +81,12 @@ jobs:
           PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
           PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
           jdJoyStealCoin: ${{ github.event.client_payload.jdJoyStealCoin || secrets.jdJoyStealCoin }}
-          JOY_HELP_FEED: ${{ github.event.client_payload.JOY_HELP_FEED || secrets.JOY_HELP_FEED }}
+          #JOY_HELP_FEED: ${{ github.event.client_payload.JOY_HELP_FEED || secrets.JOY_HELP_FEED }}
+          #HELP_AUTHOR: ${{ github.event.client_payload.HELP_AUTHOR || secrets.HELP_AUTHOR }}
           SYNCURL: yn/jd_joy_steal.js
           REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
           BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-          HELP_AUTHOR: ${{ github.event.client_payload.HELP_AUTHOR || secrets.HELP_AUTHOR }}
+          JOY_HELP_FEED: true  #是否给好友喂食,false为否,true为是(给好友喂食)
+          HELP_AUTHOR: false  #是否助力作者
+          
           
