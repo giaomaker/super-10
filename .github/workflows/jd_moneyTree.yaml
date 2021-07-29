@@ -81,10 +81,11 @@ jobs:
           QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
           PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
           PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
+          #MONEY_TREE_SELL_FRUIT: ${{ github.event.client_payload.MONEY_TREE_SELL_FRUIT || secrets.MONEY_TREE_SELL_FRUIT }}
+          MONEYTREE_SHARECODES: ${{ github.event.client_payload.MONEYTREE_SHARECODES || secrets.MONEYTREE_SHARECODES }}
           SYNCURL: yn/jd_moneyTree.js
           SYNCURL2: jo/jd_moneyTree_help.js
           REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
           BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-          #MONEY_TREE_SELL_FRUIT: ${{ github.event.client_payload.MONEY_TREE_SELL_FRUIT || secrets.MONEY_TREE_SELL_FRUIT }}
-          MONEYTREE_SHARECODES: ${{ github.event.client_payload.MONEYTREE_SHARECODES || secrets.MONEYTREE_SHARECODES }}
-          MONEY_TREE_SELL_FRUIT: true
+          MONEYTREE_NOTIFY_CONTROL: false #false为否(发送推送通知消息)
+          MONEY_TREE_SELL_FRUIT: true  #true为卖出金果兑换成金币
