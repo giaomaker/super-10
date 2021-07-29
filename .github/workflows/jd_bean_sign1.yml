@@ -88,4 +88,7 @@ jobs:
           SYNCURL2: jo/jd_sign_graphics.js
           REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
           BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
+          #JD_BEAN_STOP:   #自定义延迟签到,建议为1
+          #JD_BEAN_SIGN_STOP_NOTIFY: false  #false表示发送通知
+          #JD_BEAN_SIGN_NOTIFY_SIMPLE:   #true表示推送简洁通知
           
