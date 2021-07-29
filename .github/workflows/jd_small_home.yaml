@@ -74,4 +74,5 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   SYNCURL: yn/jd_small_home.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
-                  PURCHASE_SHOPS: ${{ github.event.client_payload.PURCHASE_SHOPS || secrets.PURCHASE_SHOPS }} 
+                  BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
+                  PURCHASE_SHOPS: true  # 是否做加物品至购物车任务,设置true，目前东东小窝(jd_small_home.js)脚本会有加购任务
