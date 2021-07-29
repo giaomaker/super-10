@@ -93,4 +93,5 @@ jobs:
           JOY_RUN_FLAG: true  #true表示参加赛跑
           JOY_TEAM_LEVEL: 10   #参加几人的赛跑,可选数字为2,10,50
           JOY_RUN_NOTIFY: true  #true为赛跑获胜后推送通知
+          JOY_RUN_HELP_MYSELF: true  #输入true为开启内部互助
           
