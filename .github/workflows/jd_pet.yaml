@@ -77,4 +77,4 @@ jobs:
                   SYNCURL: yn/jd_pet.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-                  PET_NOTIFY_CONTROL: false
+                  PET_NOTIFY_CONTROL: false  #false为发送推送通知消息
