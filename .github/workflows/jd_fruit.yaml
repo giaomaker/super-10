@@ -79,5 +79,5 @@ jobs:
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
                   IGNORE_COOKIE_JDNC: ${{ github.event.client_payload.IGNORE_COOKIE_JDNC || secrets.IGNORE_COOKIE_JDNC }} #京东农场禁用某些cookie的执行,因为通知太烦了呀,比如要禁用第2和第四个的执行,则填入[2,4]即可,包含中括号哦
-                  FRUIT_BEAN_CARD: true
-                  FRUIT_NOTIFY_CONTROL: false
+                  FRUIT_BEAN_CARD: true  #true表示水滴卡换豆
+                  FRUIT_NOTIFY_CONTROL: false  #false为发送推送通知消息
