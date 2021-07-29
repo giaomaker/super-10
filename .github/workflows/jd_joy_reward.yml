@@ -81,9 +81,11 @@ jobs:
           QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
           PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
           PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
+          #HELP_AUTHOR: ${{ github.event.client_payload.HELP_AUTHOR || secrets.HELP_AUTHOR }}
+          #JD_JOY_REWARD_NAME: ${{ github.event.client_payload.JD_JOY_REWARD_NAME || secrets.JD_JOY_REWARD_NAME }}
           SYNCURL: jo/jd_joy_reward.js
           REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
           BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-          HELP_AUTHOR: ${{ github.event.client_payload.HELP_AUTHOR || secrets.HELP_AUTHOR }}
-          #JD_JOY_REWARD_NAME: ${{ github.event.client_payload.JD_JOY_REWARD_NAME || secrets.JD_JOY_REWARD_NAME }}
-          JD_JOY_REWARD_NAME: 20
+          HELP_AUTHOR: false  #是否助力作者
+          JD_JOY_REWARD_NAME: 20  #可填值为20或者500,脚本默认0,0表示不兑换京豆
+          JD_JOY_REWARD_NOTIFY: false  #false为否(发送推送通知消息)
