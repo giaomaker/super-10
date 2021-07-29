@@ -73,6 +73,6 @@ jobs:
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   #SYNCURL: https://github.com/yangtingxiao/QuantumultX/raw/master/scripts/jd/jd_lotteryMachine.js
-                  SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/yn/jd_lotteryMachine.js
-                  #REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
+                  SYNCURL: yn/jd_lotteryMachine.js
+                  REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
