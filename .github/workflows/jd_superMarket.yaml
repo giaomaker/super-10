@@ -73,3 +73,6 @@ jobs:
                   SYNCURL: yn/jd_superMarket.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
+                  JOIN_PK_TEAM: true  #每次pk活动参加作者创建的pk队伍,true表示参加,false表示不参加
+                  SUPERMARKET_LOTTERY: true  #每天运行脚本是否使用金币去抽奖,true表示抽奖,false表示不抽奖
+                  
