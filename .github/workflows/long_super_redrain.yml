@@ -1,4 +1,4 @@
-name: 超级直播间红包雨(整点红包雨)
+name: Me_超级直播间红包雨(整点红包雨)
 
 on:
     workflow_dispatch:
