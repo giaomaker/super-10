@@ -24,6 +24,8 @@ simek : https://github.com/smiek2221/scripts.git
 
 curtinlv : https://github.com/curtinlv/JD-Script
 
+star261 : https://github.com/star261/jd/tree/main
+
 Weoux : https://github.com/Wenmoux/scripts/tree/wen
 
 panghu : https://github.com/panghu999/panghu.git
