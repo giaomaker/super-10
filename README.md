@@ -14,6 +14,8 @@ songyangzz ：https://github.com/songyangzz/jd_scripts
 
 Aaron : https://github.com/Aaron-lv/sync/tree/jd_scripts
 
+he1pu : https://github.com/he1pu/JDHelp.git
+
 lml0924 : https://github.com/lml0924/JD_tencent_scf.git
 
 cdle ： https://github.com/cdle/jd_study.git
