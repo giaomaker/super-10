@@ -74,6 +74,6 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   JDZZ_SHARECODES: ${{ github.event.client_payload.JDZZ_SHARECODES || secrets.JDZZ_SHARECODES }}
                   #JDZZ_NOTIFY_CONTROL: ${{ github.event.client_payload.JDZZ_NOTIFY_CONTROL || secrets.JDZZ_NOTIFY_CONTROL }}
-                  SYNCURL: yn/jd_jdzz.js
+                  SYNCURL: https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_jdzz.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   JDZZ_NOTIFY_CONTROL: false  #false为否(发送推送通知消息)
