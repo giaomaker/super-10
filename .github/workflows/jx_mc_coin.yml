@@ -70,6 +70,6 @@ jobs:
                   QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
-                  SYNCURL: yn/jx_mc_coin.js
+                  SYNCURL: https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_mc_coin.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   HELP_AUTHOR: ${{ github.event.client_payload.HELP_AUTHOR || secrets.HELP_AUTHOR }}
