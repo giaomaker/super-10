@@ -71,6 +71,6 @@ jobs:
                   QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
-                  SYNCURL: yn/jd_big_winner.js
+                  SYNCURL: https://raw.githubusercontent.com/Neint/MyRules/master/LXK9301/jd_scripts/jd_big_winner.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   HELP_AUTHOR: ${{ github.event.client_payload.HELP_AUTHOR || secrets.HELP_AUTHOR }}
